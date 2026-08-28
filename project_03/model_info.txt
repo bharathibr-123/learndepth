@@ -1,0 +1,6 @@
+Best model: Linear Regression
+                            MAE    RMSE     R2
+Linear Regression         8.026  10.455  0.889
+Random Forest (tuned)     8.495  10.919  0.879
+Random Forest (baseline)  8.596  11.065  0.876
+XGBoost                   9.069  11.518  0.866
