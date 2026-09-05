@@ -1,0 +1,212 @@
+[
+  {
+    "problem_id": "01",
+    "slug": "customer_churn_risk",
+    "title": "Customer Churn Risk",
+    "accuracy": 0.69,
+    "precision": 0.6979166666666666,
+    "recall": 0.67,
+    "f1": 0.6836734693877551,
+    "roc_auc": 0.7482,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.6975,
+    "cv_accuracy_std": 0.028668362352949294,
+    "cv_roc_auc_mean": 0.7649687500000001,
+    "cv_roc_auc_std": 0.029683782662002518,
+    "best_params": {
+      "C": 0.5,
+      "max_iter": 2000,
+      "penalty": "l1",
+      "solver": "liblinear"
+    }
+  },
+  {
+    "problem_id": "02",
+    "slug": "loan_approval_screening",
+    "title": "Loan Approval Screening",
+    "accuracy": 0.705,
+    "precision": 0.6880733944954128,
+    "recall": 0.75,
+    "f1": 0.7177033492822966,
+    "roc_auc": 0.7822,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7112499999999999,
+    "cv_accuracy_std": 0.019525624189766645,
+    "cv_roc_auc_mean": 0.7844374999999999,
+    "cv_roc_auc_std": 0.017473920299263115,
+    "best_params": {
+      "C": 5,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "03",
+    "slug": "employee_attrition",
+    "title": "Employee Attrition",
+    "accuracy": 0.66,
+    "precision": 0.66,
+    "recall": 0.66,
+    "f1": 0.66,
+    "roc_auc": 0.7367,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7037500000000001,
+    "cv_accuracy_std": 0.04930770730829003,
+    "cv_roc_auc_mean": 0.7808125,
+    "cv_roc_auc_std": 0.04515764487464995,
+    "best_params": {
+      "C": 0.01,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "04",
+    "slug": "ecommerce_purchase_intent",
+    "title": "E-commerce Purchase Intent",
+    "accuracy": 0.725,
+    "precision": 0.7368421052631579,
+    "recall": 0.7,
+    "f1": 0.717948717948718,
+    "roc_auc": 0.7997,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7137499999999999,
+    "cv_accuracy_std": 0.03072051431861129,
+    "cv_roc_auc_mean": 0.78115625,
+    "cv_roc_auc_std": 0.014371127195700394,
+    "best_params": {
+      "C": 0.01,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "05",
+    "slug": "insurance_claim_flagging",
+    "title": "Insurance Claim Flagging",
+    "accuracy": 0.625,
+    "precision": 0.631578947368421,
+    "recall": 0.6,
+    "f1": 0.6153846153846154,
+    "roc_auc": 0.6662,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.6625000000000001,
+    "cv_accuracy_std": 0.03259601202601324,
+    "cv_roc_auc_mean": 0.7289999999999999,
+    "cv_roc_auc_std": 0.04205007710308028,
+    "best_params": {
+      "C": 0.01,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "06",
+    "slug": "equipment_failure_warning",
+    "title": "Equipment Failure Warning",
+    "accuracy": 0.705,
+    "precision": 0.7252747252747253,
+    "recall": 0.66,
+    "f1": 0.6910994764397905,
+    "roc_auc": 0.7758,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.66625,
+    "cv_accuracy_std": 0.019605483926697663,
+    "cv_roc_auc_mean": 0.7547812500000001,
+    "cv_roc_auc_std": 0.020359225104973958,
+    "best_params": {
+      "C": 0.01,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "07",
+    "slug": "student_placement_eligibility",
+    "title": "Student Placement Eligibility",
+    "accuracy": 0.7,
+    "precision": 0.6886792452830188,
+    "recall": 0.73,
+    "f1": 0.7087378640776699,
+    "roc_auc": 0.7869999999999999,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7,
+    "cv_accuracy_std": 0.03708099243547831,
+    "cv_roc_auc_mean": 0.7758749999999999,
+    "cv_roc_auc_std": 0.03515376380097873,
+    "best_params": {
+      "C": 0.1,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "08",
+    "slug": "email_priority_classification",
+    "title": "Email Priority Classification",
+    "accuracy": 0.66,
+    "precision": 0.6509433962264151,
+    "recall": 0.69,
+    "f1": 0.6699029126213593,
+    "roc_auc": 0.7343,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7125,
+    "cv_accuracy_std": 0.036869703009381555,
+    "cv_roc_auc_mean": 0.78921875,
+    "cv_roc_auc_std": 0.04392598533328538,
+    "best_params": {
+      "C": 0.01,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "09",
+    "slug": "delivery_delay_risk",
+    "title": "Delivery Delay Risk",
+    "accuracy": 0.625,
+    "precision": 0.6126126126126126,
+    "recall": 0.68,
+    "f1": 0.6445497630331753,
+    "roc_auc": 0.7145999999999999,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.6849999999999999,
+    "cv_accuracy_std": 0.02549509756796393,
+    "cv_roc_auc_mean": 0.749375,
+    "cv_roc_auc_std": 0.03705925892236647,
+    "best_params": {
+      "C": 0.5,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  },
+  {
+    "problem_id": "10",
+    "slug": "retail_return_risk",
+    "title": "Retail Return Risk",
+    "accuracy": 0.67,
+    "precision": 0.6545454545454545,
+    "recall": 0.72,
+    "f1": 0.6857142857142857,
+    "roc_auc": 0.7308999999999999,
+    "baseline_accuracy": 0.5,
+    "cv_accuracy_mean": 0.7050000000000001,
+    "cv_accuracy_std": 0.022150056433336687,
+    "cv_roc_auc_mean": 0.7797812500000001,
+    "cv_roc_auc_std": 0.014939526536172422,
+    "best_params": {
+      "C": 5,
+      "max_iter": 2000,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    }
+  }
+]
